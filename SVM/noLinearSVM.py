@@ -33,24 +33,33 @@ def plot_svc_decision_function(model, ax=None, plot_support=True):
 
 
 # 用make_blobs生成样本数据
-from sklearn.datasets.samples_generator import make_blobs
-# 不重叠情况
-# X, y = make_blobs(n_samples=50, centers=2,
-#                   random_state=0, cluster_std=0.60)
-# 重叠情况下
-X, y = make_blobs(n_samples=100, centers=2,
-                  random_state=0, cluster_std=0.9)
+from sklearn.datasets.samples_generator import make_circles
+X, y = make_circles(100, factor=.1, noise=.1)
 
 # 将样本数据绘制在直角坐标中
 plt.scatter(X[:, 0], X[:, 1], c=y, s=50, cmap='autumn');
 plt.show()
 
+from mpl_toolkits import mplot3d
+
+
+def plot_3D(elev=30, azim=30, X=None, y=None):
+    ax = plt.subplot(projection='3d')
+    r = np.exp(-(X ** 2).sum(1))
+    ax.scatter3D(X[:, 0], X[:, 1], r, c=y, s=50, cmap='autumn')
+    ax.view_init(elev=elev, azim=azim)
+    ax.set_xlabel('x')
+    ax.set_ylabel('y')
+    ax.set_zlabel('r')
+
+
+plot_3D(X=X, y=y)
+plt.show()
+
 # 用线性核函数的SVM来对样本进行分类
 #惩罚系数 默认
-# model = SVC(kernel='linear')
-#惩罚系数 10
-model = SVC(kernel='linear', C=10.0)
-# model = SVC(kernel='rbf', C=10)
+# model = SVC(kernel='rbf')
+model = SVC(kernel='rbf', C=10)
 model.fit(X, y)
 
 # 在直角坐标中绘制出分割超平面、辅助超平面和支持向量
