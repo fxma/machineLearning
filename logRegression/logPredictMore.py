@@ -5,7 +5,7 @@ import pandas as pd
 # Importing dataset
 data = pd.read_csv('quiz.csv', delimiter=',')
 
-used_features = [ "Last Score", "Hours Spent"]
+used_features = ["Last Score", "Hours Spent"]
 X = data[used_features].values
 scores = data["Score"].values
 
