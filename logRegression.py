@@ -1,6 +1,6 @@
 from numpy import *
 
-filename = './testSet.txt'  # 文件目录
+filename = './data/testSet.txt'  # 文件目录
 
 
 def loadDataSet():   # 读取数据（这里只有两个特征）

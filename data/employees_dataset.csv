@@ -1,0 +1,73 @@
+degree,education,skills,working_experience,position
+master,fudan university,c/c++ stl;c;sql;design patterns;atl com;asp.net;delphi;scrum;technical leadership;c++;business intelligence;emacs;linux;ajax;uml;multithreading;boost;distributed systems;ooad,bank of china;sap;emc,dev
+bachelor,inner mongolia university,c;design patterns;windows;system modeling;storage;c++;perl;user interface;api development;oop;linux;virtualization,ca technologies;beijing topsec network security technology;prosoft,dev
+bachelor,shanghai university,c;git;java;python;mongodb;selenium;test automation;soap;rest;web services;linux;jmeter;ruby;junit;bash,tudou.com;ebaotech corporation,dev
+master,shanghai jiao tong university,c;java;c++;provisioning;unix;clariion;solaris;storage area networks,hp;emc,dev
+master,beijing university of post and telecommunications,c;sip;java;tcp/ip;shell scripting;python;ip;cloud computing;storage;c++;perl;wireless;unix;virtualization;agile methodologies;linux;embedded systems;telecommunications;distributed systems,tektronix,dev
+master,dalian university of technology,c;sip;shell scripting;operating systems;device drivers;linux system programming;media gateways;h.248;unix;linux kernel;linux;python;multithreading;voip;computer science,synopsys;alcatel-lucent,dev
+master,beihang university,c++/c;java;sql;python;design patterns;generic programming;big data mining and analytics;agile (scrum) development;scalable algorithm design;cache conscious technology;r and weka,emc information technology r&d co.  ltd.;ibm,dev
+master,university of california  berkeley - walter a. haas school of business,cloud applications;web services;big data;cloud computing;scrum;saas;hadoop;strategy;analytics;enterprise software;mobile applications;go-to-market strategy;agile methodologies;product management;virtualization,yahoo;mywire;augmentum,dev
+master,nanjing university,customer communication;cloud computing;troubleshooting;cloud storage;linux,ibm;emc,dev
+master,beijing institute of technology,debugging;c;assembly;usb;kernel;device drivers;c++;intel,innofidei;symantec;intel,dev
+master,xiamen university,debugging;c;design patterns;shell scripting;mobile communications;ss7;mysql;c++;unix;assembly;matlab;lte;linux;embedded software;clearcase;embedded systems;telecommunications;voip,huawei technologies;alcatel-lucent;bell labs lucent technologies,dev
+bachelor,yantai university,debugging;shell scripting;battery;linux kernel;linux;assembly;interrupt management;linux porting;jtag;c language;rtos;embedded linux;freescale coldfire/m68k;samsung arm9/arm11/cortex a8/a9;android;charging;operating systems;marvell pxa;embedded software;process scheduler;device drivers;sensors;bootloader;asm;power management;arm architecture;filesystem;linux driver;linux boot sequence;i2c;embedded systems;memory management,sunplus;lenovo;freescale,dev
+bachelor,nanchang university,emc storage;vsphere;emcisa;tcp/ip;hp storage;symmetrix;hyper-v;hp blade;virtualization;linux;ocp;vcp 4;vmware,cienet technologies;inventec;pactera,dev
+bachelor,tongji university,ios development;shell scripting;concurrent programming;spring;objective-c;web applications;mysql;java;big data;saas;hadoop;j2ee application development;weblogic;agile methodologies;oracle sql;jboss application server;android development;hibernate;storm;ajax;groovy;tomcat;grails;java enterprise edition,successfactors;nurun;admaster digital marketing,dev
+bachelor,wuhan university,java,starcite;emc;ebay,dev
+master,wuhan university,kernel;assembly language;shell scripting;unix;linux kernel;linux;unix shell scripting;java;perl;agile methodologies;networking;operating systems;python;device drivers;embedded c;mips;threadx;software development;c;cloud computing;c++;embedded systems,alcatel-lucent;intel corporation;tecom co. ltd,dev
+master,beijing university of post and telecommunications,kernel;debugging;file systems;linux kernel;linux;vmware esx;enterprise storage;open source;storage;hadoop;distributed systems;multithreading;operating systems;scalability;software development;software engineering;cloud computing;high performance computing;distributed file systems;system architecture;algorithms;high availability;virtualization,tencent;emc;opensuse project,dev
+bachelor,xi'dian university,linux/unix  server/storage  perl python web development,mitac;hewlett-packard,dev
+bachelor,tongji university,nas;san;shell scripting;ip;hyper-v;ibm v7000;linux;perl;vmware esx;db2;sap r/3;solaris 8/9/10;sgsn;ibm xiv;jboss application server;ibm tivoli;ds4000;ds8000;sql;ufs;ruby;cloud storage;ggsn;aix;netapp,ericsson;ibm;ebay,dev
+master,zhejiang university,nas;storage;tcp/ip;distributed systems;linux kernel,alcatel-lucent;falconstor software;emc,dev
+master,xidian university,network security;openstack;cloud computing;storage virtualization;voip;hadoop;switches;system architecture;storage architecture;virtualization;databases;networking;distributed systems,alcatel-lucent;cisco systems,dev
+master,graduate university of chinese academy of sciences,paas;disaster recovery;san;proposal writing;technical presentations;windows;sun;cloud computing;performance tuning;storage;switch;data center;nas;unix;virtualization;channel;linux;oracle;backup;vmware;partner management,sun microsystems;amd;dell,dev
+bachelor,renmin university of china,perl;linux;java;agile methodologies;sql,teradata,dev
+master,nanjing university,pmp;network management applications;middleware;automation framework build;web/webservice;storage management;java/c#/python/installscript,sybase;ibm,dev
+master,nanjing university,programming;visual studio;linux;vmware;xml;java;agile;jboss;operating systems;javascript;c;sql;software development;j2ee;design patterns;tomcat;software engineering;windows;eclipse;c++;enterprise content management;databases,emc,dev
+master,tsinghua university,server architecture;j2ee;jdbc;design patterns;shell scripting;tomcat;database;agile;cloud computing;scrum;eclipse;hadoop;rest;java software development;ant;scalability;linux;postgresql;bash;architecture,ibm china;brightcove inc.,dev
+master,nanjing university,soa;single sign on;vsphere;active directory;xml;xml schema/dtd;parallel network programming;web application security;json;web services;multi-threaded development;identity federation;scalable web applications;jaas;saml/ws-federation/ws-trust/openid/oauth;soap/rest/wsdl;ssl;intel sse;performance tuning;sax/dom/stax;xacml;web service security;osgi,intel;emc,dev
+master,east china normal university,software development;c;embedded software;software engineering;windows;cloud computing;firmware;storage;device drivers;linux kernel,ibm,dev
+master,shanghai jiao tong university,software development;debugging;c;embedded software;x86;vxworks;storage;cloud computing;firmware;rtos;device drivers;c++;linux kernel;linux;embedded systems;distributed systems,radisys corporation;3up systems;emc,dev
+master,jiangsu university of science and technology,software development;debugging;soc;software engineering;xml;windows;software architecture;semiconductors;opengl;programming;c;c++;perl;electronics;embedded systems;uml(4+1view);operating systems,intel;agilent/verigy,dev
+master,tongji university,software development;java enterprise edition;java;software engineering;agile methodologies,sybase;csts,dev
+m.eng,nanjing university,software development;kernel;c;java;software engineering;shell scripting;python;bash;device drivers;unix;linux kernel;agile methodologies;linux;networking;linux system administration;multithreading;distributed systems;tcp/ip,freelancer;trend micro;red hat,dev
+master,china academy of launch vehicle technology,software development;kernel;qt;software engineering;debugging;object oriented design;device drivers;ood;certified scrum master csm;os;oop;agile methodologies;linux;embedded systems;operating systems;netact,plenware oy;nokia;nokia siemens networks,dev
+master,wuhan university of science and technology,storage software;cloud computing;storage;c++;file systems;virtualization;linux;distributed systems;linux kernel,alcatel-lucent;honeywell;transoft,dev
+master,shanghai jiao tong university,storage software;shell scripting;device drivers;kernel programming;perl;linux development;linux kernel;distributed systems,falconstor software;symantec;bolang software development ltd. (closed),dev
+master,nanjing university of science and technology,storage;perl;java;shell scripting;linux,ibm;emc;alcatel,dev
+master,beihang university,tcp/ip;c/c++;unix;linux;embedded systems;operating systems,huawei symantec technologies;alcatel-lucent,dev
+master,shanghai jiao tong university,veritas storage foundation;automation tools;perl;data center;virtualization;unix shell scripting;storage area networks,microsoft global technical support center;symantec;motorola labs china research center,dev
+master,beijing university of post and telecommunications,virtualization,3leaf systems;hillstone networks  inc.,dev
+phd,chinese academy of sciences,virtualization;kernel;windbg;object oriented design;storage;high performance computing;c++;system software;systems programming;file systems;linux kernel;gdb;linux;threads;multithreading;linux platform;distributed systems;gnu debugger,emc,dev
+bachelor,shanghai jiao tong university,vmware;c;networking;tcp/ip;software engineering;windows;databases;programming;c++;architecture;linux;network security;storage management;embedded systems;telecommunications;operating systems;real time,alcatel-lucent;shanghai huatang network security,dev
+master,shanghai jiao tong university,windows;agile methodologies;wxwidgets;c++;windows programming,iomega;retrospect  inc.;vmware,dev
+bachelor,sun yat-sen university,xml;lucene;java;core java;nosql;cloud foundry;spring;concurrent programming;hadoop;ant;j2ee application development;web services;hbase;backend development;maven;soap;distributed systems,telenav;newsoft technology,dev
+master,beijing university of post and telecommunications,xml;shell scripting;agile methodologies;mysql,sun microsystems;emc,dev
+bachelor,northwestern polytechnic university,xml;software development;c;java;java enterprise edition;c++;perl;unix;agile methodologies;linux,sinobot inc.;alcatel lucent shanghai bell;avocent,dev
+master,nanjing university,agile;enterprise content management;enterprise search;agile methodologies,emc,manager
+master,southwest jiaotong university,leadership;project management;vmware esx;c programming;agile,mountain view data(acquired by 3leaf in 2008);3leaf networks;emc,manager
+master,university of essex,change management;incident handling;customer service;leadership;project management,hp;dell;emc,manager
+bachelor,fuyang normal college,change management;software quality assurance;test management;requirements analysis;software engineering;quality management;testing;leadership development;device drivers;test automation;technical recruiting;negotiation;operations management;quality assurance;test planning;organizational effectiveness;project management;data-driven decision making,intel corporation;marvell semiconductor;emc,manager
+bachelor,university of shanghai for science and technology,agile;cloud computing;software engineering;project management,konami;emc;lsi logic,manager
+master,the university of hong kong,cloud computing;project management,oval technologies;microsoft,manager
+bachelor,tongji university,leadership;enterprise software;software engineering;agile;web services,sybase;bmi asia (acquired by convergys),manager
+master,shanghai jiao tong university,customer satisfaction;hp-ux;san;project management;troubleshooting;incident handling,ibm;emc,manager
+master,santa clara university,enterprise software;project management;agile;business development;software engineering,yahoo!;microsoft;splashtop inc (formerly devicevm),manager
+bachelor,fudan university,project management;enterprise software,asus;emc,manager
+phd,institute of computing technology  chinese academy of sciences,enterprise softare;software engineering;high performance computing;product management,emc,manager
+bachelor,"university for science and technology of shanghai		computer science",software engineering;project management,cisco system;vli communication;dextrys,manager
+master,southeast university,software engineering;agile;leadership,autodesk;emc,manager
+master,the university of manchester,enterprise software;agile;software engineering,odg  london  uk;ig index  london  uk;emc  shanghai  china,manager
+bachelor,wuhan university,team building;project management;agile;leadership;software engineering;performance metrics,hp;emc;dragonsoft,manager
+master,nanjing university of posts and telecommunications,software engineering;agile;team building;software engineering,huawei;intel;emc,manager
+master,xidian university,software engineering;enterprise software;agile,sybase;emc,manager
+bachelor,southwest china normal university,project management;agile;software engineering;enterprise software,amazon;sun microsystems;microsoft,manager
+master,shanghai jiao tong university,team building;project management;agile;leadership,marvell;s3 graphics;emc,manager
+master,harbin institute of technology,release management;test planning;tcp/ip;test automation,china potevio;ibm;wind river,qa
+master,institute for technology and management  hyderabad,shell scripting;memory leak & errors;cluster;test planning;test automation,satyam computer services limited;symantec;ibm,qa
+bachelor,harbin institute of technology,python;test automation;perl;unix;linux;android;high availability,symantec;ibm,qa
+bachelor,chengdu institute of neu,test management;scrum;python;test cases;testing;selenium;regression testing;test automation;test design;certified scrum master csm;shell;sql;linux;test planning,newegg.com;symbio;tieto,qa
+master,huazhong university of science and technology,testing;unix;linux;hbase;xml;java;servlets;java enterprise edition;hadoop;ejb;perl;subversion;c#;agile methodologies;flume;hibernate;python;javascript;jsp;sql;activemq;c;tomcat;c++,cienet technologies;thomson reuters,qa
+master,harbin institute of technology,software quality assurance;solaris;system testing;shell scripting;cloud computing;testing;test automation;perl;unix;linux;test planning,sun;lenovo;symantec,qa
+master,shanghai university,test management;java;qtp;c#;performance testing;programming;test automation;loadrunner;oracle administration;oracle rac;performance tuning;jmeter,industrial and commercial bank of china;hewlett-packard,qa
+master,beihang university,xml;flex;java;python;agile;scrum;c++;ant;test automation;plugins;test planning;unit testing;junit,north china institute of computing technology;adobe,qa

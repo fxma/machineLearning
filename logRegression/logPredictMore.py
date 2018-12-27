@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import pandas as pd
 
 # Importing dataset
-data = pd.read_csv('quiz.csv', delimiter=',')
+data = pd.read_csv('../data/quiz.csv', delimiter=',')
 
 used_features = ["Last Score", "Hours Spent"]
 X = data[used_features].values
