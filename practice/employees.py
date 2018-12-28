@@ -5,14 +5,18 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 import matplotlib.pyplot as plt
 
-#先做数据清理
-#清理的数据放入新的csv文件
-# degree使用0 1 2 3,
-# education使用985 211 normal 分别对应 0 1 2,
+#先手动做数据清理，清理的数据放入新的csv文件
+#将清理过的数据做数值化
+# degree数值化为1 2 3,
+# education先转换为985 211 normal 然后数值化为 1 2 3,
 # skills使用二进制的位运算,比如,C++在第二位的标记为1,00000010,否则为0，00000000,然后转换为十进制2和0
-#读取csv文件运用分类器模型训练
-#预测数据
+# position数值化为1 2 3,
+#用朴素贝叶斯分类器模型训练
+#使用训练过的模型预测数据
+#输出准确率
 
+# data = pd.read_csv("../data/employees_dataset.csv.csv")
+# 手动清理出来的文件，目前只是清理了学位和学校
 data = pd.read_csv("../data/employees_dataset_cleaned.csv")
 
 degree = data["degree"].values
@@ -26,8 +30,6 @@ educationSet = set()
 skillsSet = set()
 workingExperienceSet = set()
 positionSet = set()
-degreeDict = {}
-degree_cleaned=[]
 for val in degree:
     degreeSet.add(val)
 for val in education:
@@ -44,12 +46,45 @@ print(educationSet)
 # print(workingExperienceSet)
 print(positionSet)
 
-print(degree_cleaned)
-for idx, val in (enumerate(degreeSet)):
-    degreeDict[val] = idx
-    # print(idx)
-    # print(val)
-print(degreeDict)
+# 特征值数值化
+data["education_cleaned"] = np.where(data["education"] == "985", 1,
+                                     np.where(data["education"] == "211", 2,
+                                              np.where(data["education"] == "normal", 3, 4)
+                                              ))
+data["degree_cleaned"] = np.where(data["degree"] == "bachlor", 1,
+                                     np.where(data["degree"] == "master", 2,
+                                              np.where(data["degree"] == "phd", 3, 4)
+                                              )
+                                     )
+data["position_cleaned"] = np.where(data["position"] == "qa", 1,
+                                  np.where(data["position"] == "manager", 2,
+                                           np.where(data["position"] == "dev", 3, 4)
+                                           )
+                                  )
+# 将数据切分为训练集合测试集
+X_train, X_test = train_test_split(data, test_size=0.1, random_state=int(time.time()))
+
+print("训练集=\n", X_train)
+print("测试集=\n", X_test)
+
+#  贝叶斯分类器初始化
+gnb = GaussianNB()
+used_features = ["education_cleaned", "degree_cleaned"]
+#  训练模型
+gnb.fit(X_train[used_features].values, X_train["position_cleaned"])
+
+#  预测
+y_pred = gnb.predict(X_test[used_features])
+
+#  打印预测
+print("职位预测=\n", y_pred)
+
+print("测试数据个数： {}，预测失败个数: {}, 正确率 {:05.2f}%".format(
+    X_test.shape[0],
+    (X_test["position_cleaned"] != y_pred).sum(),
+    100*(1-(X_test["position_cleaned"] != y_pred).sum()/X_test.shape[0])
+))
+
 
 
 # dict['Age'] = 8;

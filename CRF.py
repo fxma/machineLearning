@@ -69,7 +69,7 @@ def word2features(doc, i):
 
 
 # --- read data file, and parse xml ---
-with codecs.open("./reuters.xml", "r", "utf-8") as infile:
+with codecs.open("./data/reuters.xml", "r", "utf-8") as infile:
     soup = bs(infile, "html5lib")
 
 docs = []

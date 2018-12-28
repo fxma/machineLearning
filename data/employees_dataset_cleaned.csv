@@ -1,17 +1,17 @@
 degree,education,skills,working_experience,position
 master,985,c/c++ stl;c;sql;design patterns;atl com;asp.net;delphi;scrum;technical leadership;c++;business intelligence;emacs;linux;ajax;uml;multithreading;boost;distributed systems;ooad,bank of china;sap;emc,dev
 bachelor,211,c;design patterns;windows;system modeling;storage;c++;perl;user interface;api development;oop;linux;virtualization,ca technologies;beijing topsec network security technology;prosoft,dev
-bachelor,shanghai university,c;git;java;python;mongodb;selenium;test automation;soap;rest;web services;linux;jmeter;ruby;junit;bash,tudou.com;ebaotech corporation,dev
+bachelor,211,c;git;java;python;mongodb;selenium;test automation;soap;rest;web services;linux;jmeter;ruby;junit;bash,tudou.com;ebaotech corporation,dev
 master,985,c;java;c++;provisioning;unix;clariion;solaris;storage area networks,hp;emc,dev
 master,211,c;sip;java;tcp/ip;shell scripting;python;ip;cloud computing;storage;c++;perl;wireless;unix;virtualization;agile methodologies;linux;embedded systems;telecommunications;distributed systems,tektronix,dev
 master,985,c;sip;shell scripting;operating systems;device drivers;linux system programming;media gateways;h.248;unix;linux kernel;linux;python;multithreading;voip;computer science,synopsys;alcatel-lucent,dev
 master,985,c++/c;java;sql;python;design patterns;generic programming;big data mining and analytics;agile (scrum) development;scalable algorithm design;cache conscious technology;r and weka,emc information technology r&d co.  ltd.;ibm,dev
-master,university of california  berkeley - walter a. haas school of business,cloud applications;web services;big data;cloud computing;scrum;saas;hadoop;strategy;analytics;enterprise software;mobile applications;go-to-market strategy;agile methodologies;product management;virtualization,yahoo;mywire;augmentum,dev
+master,normal,cloud applications;web services;big data;cloud computing;scrum;saas;hadoop;strategy;analytics;enterprise software;mobile applications;go-to-market strategy;agile methodologies;product management;virtualization,yahoo;mywire;augmentum,dev
 master,985,customer communication;cloud computing;troubleshooting;cloud storage;linux,ibm;emc,dev
 master,985,debugging;c;assembly;usb;kernel;device drivers;c++;intel,innofidei;symantec;intel,dev
 master,985,debugging;c;design patterns;shell scripting;mobile communications;ss7;mysql;c++;unix;assembly;matlab;lte;linux;embedded software;clearcase;embedded systems;telecommunications;voip,huawei technologies;alcatel-lucent;bell labs lucent technologies,dev
 bachelor,normal,debugging;shell scripting;battery;linux kernel;linux;assembly;interrupt management;linux porting;jtag;c language;rtos;embedded linux;freescale coldfire/m68k;samsung arm9/arm11/cortex a8/a9;android;charging;operating systems;marvell pxa;embedded software;process scheduler;device drivers;sensors;bootloader;asm;power management;arm architecture;filesystem;linux driver;linux boot sequence;i2c;embedded systems;memory management,sunplus;lenovo;freescale,dev
-bachelor,nanchang university,emc storage;vsphere;emcisa;tcp/ip;hp storage;symmetrix;hyper-v;hp blade;virtualization;linux;ocp;vcp 4;vmware,cienet technologies;inventec;pactera,dev
+bachelor,211,emc storage;vsphere;emcisa;tcp/ip;hp storage;symmetrix;hyper-v;hp blade;virtualization;linux;ocp;vcp 4;vmware,cienet technologies;inventec;pactera,dev
 bachelor,985,ios development;shell scripting;concurrent programming;spring;objective-c;web applications;mysql;java;big data;saas;hadoop;j2ee application development;weblogic;agile methodologies;oracle sql;jboss application server;android development;hibernate;storm;ajax;groovy;tomcat;grails;java enterprise edition,successfactors;nurun;admaster digital marketing,dev
 bachelor,985,java,starcite;emc;ebay,dev
 master,985,kernel;assembly language;shell scripting;unix;linux kernel;linux;unix shell scripting;java;perl;agile methodologies;networking;operating systems;python;device drivers;embedded c;mips;threadx;software development;c;cloud computing;c++;embedded systems,alcatel-lucent;intel corporation;tecom co. ltd,dev
@@ -19,7 +19,7 @@ master,211,kernel;debugging;file systems;linux kernel;linux;vmware esx;enterpris
 bachelor,985,linux/unix  server/storage  perl python web development,mitac;hewlett-packard,dev
 bachelor,985,nas;san;shell scripting;ip;hyper-v;ibm v7000;linux;perl;vmware esx;db2;sap r/3;solaris 8/9/10;sgsn;ibm xiv;jboss application server;ibm tivoli;ds4000;ds8000;sql;ufs;ruby;cloud storage;ggsn;aix;netapp,ericsson;ibm;ebay,dev
 master,985,nas;storage;tcp/ip;distributed systems;linux kernel,alcatel-lucent;falconstor software;emc,dev
-master,xidian university,network security;openstack;cloud computing;storage virtualization;voip;hadoop;switches;system architecture;storage architecture;virtualization;databases;networking;distributed systems,alcatel-lucent;cisco systems,dev
+master,985,network security;openstack;cloud computing;storage virtualization;voip;hadoop;switches;system architecture;storage architecture;virtualization;databases;networking;distributed systems,alcatel-lucent;cisco systems,dev
 master,normal,paas;disaster recovery;san;proposal writing;technical presentations;windows;sun;cloud computing;performance tuning;storage;switch;data center;nas;unix;virtualization;channel;linux;oracle;backup;vmware;partner management,sun microsystems;amd;dell,dev
 bachelor,985,perl;linux;java;agile methodologies;sql,teradata,dev
 master,985,pmp;network management applications;middleware;automation framework build;web/webservice;storage management;java/c#/python/installscript,sybase;ibm,dev
@@ -32,16 +32,16 @@ master,normal,software development;debugging;soc;software engineering;xml;window
 master,985,software development;java enterprise edition;java;software engineering;agile methodologies,sybase;csts,dev
 master,985,software development;kernel;c;java;software engineering;shell scripting;python;bash;device drivers;unix;linux kernel;agile methodologies;linux;networking;linux system administration;multithreading;distributed systems;tcp/ip,freelancer;trend micro;red hat,dev
 master,normal,software development;kernel;qt;software engineering;debugging;object oriented design;device drivers;ood;certified scrum master csm;os;oop;agile methodologies;linux;embedded systems;operating systems;netact,plenware oy;nokia;nokia siemens networks,dev
-master,985 of science and technology,storage software;cloud computing;storage;c++;file systems;virtualization;linux;distributed systems;linux kernel,alcatel-lucent;honeywell;transoft,dev
+master,985,storage software;cloud computing;storage;c++;file systems;virtualization;linux;distributed systems;linux kernel,alcatel-lucent;honeywell;transoft,dev
 master,985,storage software;shell scripting;device drivers;kernel programming;perl;linux development;linux kernel;distributed systems,falconstor software;symantec;bolang software development ltd. (closed),dev
 master,985,storage;perl;java;shell scripting;linux,ibm;emc;alcatel,dev
 master,985,tcp/ip;c/c++;unix;linux;embedded systems;operating systems,huawei symantec technologies;alcatel-lucent,dev
 master,985,veritas storage foundation;automation tools;perl;data center;virtualization;unix shell scripting;storage area networks,microsoft global technical support center;symantec;motorola labs china research center,dev
 master,211,virtualization,3leaf systems;hillstone networks  inc.,dev
-phd,chinese academy of sciences,virtualization;kernel;windbg;object oriented design;storage;high performance computing;c++;system software;systems programming;file systems;linux kernel;gdb;linux;threads;multithreading;linux platform;distributed systems;gnu debugger,emc,dev
+phd,985,virtualization;kernel;windbg;object oriented design;storage;high performance computing;c++;system software;systems programming;file systems;linux kernel;gdb;linux;threads;multithreading;linux platform;distributed systems;gnu debugger,emc,dev
 bachelor,985,vmware;c;networking;tcp/ip;software engineering;windows;databases;programming;c++;architecture;linux;network security;storage management;embedded systems;telecommunications;operating systems;real time,alcatel-lucent;shanghai huatang network security,dev
 master,985,windows;agile methodologies;wxwidgets;c++;windows programming,iomega;retrospect  inc.;vmware,dev
-bachelor,sun yat-sen university,xml;lucene;java;core java;nosql;cloud foundry;spring;concurrent programming;hadoop;ant;j2ee application development;web services;hbase;backend development;maven;soap;distributed systems,telenav;newsoft technology,dev
+bachelor,985,xml;lucene;java;core java;nosql;cloud foundry;spring;concurrent programming;hadoop;ant;j2ee application development;web services;hbase;backend development;maven;soap;distributed systems,telenav;newsoft technology,dev
 master,211,xml;shell scripting;agile methodologies;mysql,sun microsystems;emc,dev
 bachelor,985,xml;software development;c;java;java enterprise edition;c++;perl;unix;agile methodologies;linux,sinobot inc.;alcatel lucent shanghai bell;avocent,dev
 master,985,agile;enterprise content management;enterprise search;agile methodologies,emc,manager
@@ -52,15 +52,15 @@ bachelor,normal,agile;cloud computing;software engineering;project management,ko
 master,normal,cloud computing;project management,oval technologies;microsoft,manager
 bachelor,985,leadership;enterprise software;software engineering;agile;web services,sybase;bmi asia (acquired by convergys),manager
 master,985,customer satisfaction;hp-ux;san;project management;troubleshooting;incident handling,ibm;emc,manager
-master,santa clara university,enterprise software;project management;agile;business development;software engineering,yahoo!;microsoft;splashtop inc (formerly devicevm),manager
+master,normal,enterprise software;project management;agile;business development;software engineering,yahoo!;microsoft;splashtop inc (formerly devicevm),manager
 bachelor,985,project management;enterprise software,asus;emc,manager
 phd,normal,enterprise softare;software engineering;high performance computing;product management,emc,manager
 bachelor,"normal",software engineering;project management,cisco system;vli communication;dextrys,manager
-master,southeast university,software engineering;agile;leadership,autodesk;emc,manager
-master,the university of manchester,enterprise software;agile;software engineering,odg  london  uk;ig index  london  uk;emc  shanghai  china,manager
+master,985,software engineering;agile;leadership,autodesk;emc,manager
+master,normal,enterprise software;agile;software engineering,odg  london  uk;ig index  london  uk;emc  shanghai  china,manager
 bachelor,985,team building;project management;agile;leadership;software engineering;performance metrics,hp;emc;dragonsoft,manager
 master,normal,software engineering;agile;team building;software engineering,huawei;intel;emc,manager
-master,xidian university,software engineering;enterprise software;agile,sybase;emc,manager
+master,985,software engineering;enterprise software;agile,sybase;emc,manager
 bachelor,southwest china normal university,project management;agile;software engineering;enterprise software,amazon;sun microsystems;microsoft,manager
 master,985,team building;project management;agile;leadership,marvell;s3 graphics;emc,manager
 master,985,release management;test planning;tcp/ip;test automation,china potevio;ibm;wind river,qa
@@ -69,5 +69,5 @@ bachelor,985,python;test automation;perl;unix;linux;android;high availability,sy
 bachelor,normal,test management;scrum;python;test cases;testing;selenium;regression testing;test automation;test design;certified scrum master csm;shell;sql;linux;test planning,newegg.com;symbio;tieto,qa
 master,985,testing;unix;linux;hbase;xml;java;servlets;java enterprise edition;hadoop;ejb;perl;subversion;c#;agile methodologies;flume;hibernate;python;javascript;jsp;sql;activemq;c;tomcat;c++,cienet technologies;thomson reuters,qa
 master,985,software quality assurance;solaris;system testing;shell scripting;cloud computing;testing;test automation;perl;unix;linux;test planning,sun;lenovo;symantec,qa
-master,shanghai university,test management;java;qtp;c#;performance testing;programming;test automation;loadrunner;oracle administration;oracle rac;performance tuning;jmeter,industrial and commercial bank of china;hewlett-packard,qa
+master,211,test management;java;qtp;c#;performance testing;programming;test automation;loadrunner;oracle administration;oracle rac;performance tuning;jmeter,industrial and commercial bank of china;hewlett-packard,qa
 master,985,xml;flex;java;python;agile;scrum;c++;ant;test automation;plugins;test planning;unit testing;junit,north china institute of computing technology;adobe,qa
