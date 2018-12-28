@@ -13,15 +13,13 @@ import matplotlib.pyplot as plt
 #读取csv文件运用分类器模型训练
 #预测数据
 
-data = pd.read_csv("../data/employees_dataset.csv")
+data = pd.read_csv("../data/employees_dataset_cleaned.csv")
 
 degree = data["degree"].values
 education = data["education"].values
 skills = data["skills"].values
 workingExperience = data["working_experience"].values
 position = data["position"].values
-
-print(degree)
 
 degreeSet = set()
 educationSet = set()
@@ -42,8 +40,8 @@ for val in position:
     positionSet.add(val)
 print(degreeSet)
 print(educationSet)
-print(skillsSet)
-print(workingExperienceSet)
+# print(skillsSet)
+# print(workingExperienceSet)
 print(positionSet)
 
 print(degree_cleaned)
