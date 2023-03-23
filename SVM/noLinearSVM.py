@@ -64,7 +64,7 @@ model.fit(X, y)
 
 # 在直角坐标中绘制出分割超平面、辅助超平面和支持向量
 plt.scatter(X[:, 0], X[:, 1], c=y, s=50, cmap='autumn')
-plot_svc_decision_function(model);
+plot_svc_decision_function(model)
 plt.show()
 
 
